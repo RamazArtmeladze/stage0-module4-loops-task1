@@ -9,7 +9,7 @@ public class RepeatIsBad {
 
     private void printMessage(int times) {
         if (times > 0) {
-            System.out.println("writing the same code doesn't have much impact, and it's also time-consuming");
+            System.out.println("writing the same code doesn't have much impact, and it's also time consuming");
             printMessage(times - 1);
         }
     }
